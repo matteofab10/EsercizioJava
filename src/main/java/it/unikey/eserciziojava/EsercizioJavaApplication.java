@@ -11,7 +11,9 @@ public class EsercizioJavaApplication {
     public static void main(String[] args) {
         SpringApplication.run(EsercizioJavaApplication.class, args);
 
-        /*String connectionUrl =
+        /* CONNESSIONE AL DB TRAMITE JDBC DA RIVEDERE
+
+        String connectionUrl =
                 "jdbc:sqlserver://localhost;"
                         + "database=db_domanda;"
                         + "user=sa;"
