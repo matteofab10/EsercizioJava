@@ -8,13 +8,17 @@ import java.util.List;
 
 public interface RispostaService {
 
-    void saveRisposta (RispostaRequestDTO rispostaRequestDTO);
+    //void saveRisposta (RispostaRequestDTO rispostaRequestDTO);
 
-    void deleteById (Long id);
+    //void deleteById (Long id);
 
-    RispostaResponseDTO findById(Long id);
+    //RispostaResponseDTO findById(Long id);
 
-    RispostaResponseDTO findAll();
+    //RispostaResponseDTO findAll();
 
-    List<RispostaResponseDTO> listaRisposteGiuste();
+    //FINE CRUD
+
+    //METODI
+
+    List<RispostaResponseDTO> listRightAnswers();
 }
